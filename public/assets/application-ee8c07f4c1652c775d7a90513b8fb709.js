@@ -25870,24 +25870,8 @@ function(){b(this).children().not("summary").hide()});e(b("details"))})})(jQuery
 
 }).call(this);
 $(document).ready(function () {
-alert('test');
 
-$('#test').click(function(){
-alert('test');
 
-   //check if the custom field 
-   if(document.getElementById('customamt').checked) {
-   alert('checked');
-  //Male radio button is checked
-  var testvar=$('#customnum').val();
-  alert(testvar);
-var  customamt = Number($('#customnum').val());
-  alert(customamt);
-  
-}else {
-}
-
-});
 
 var customamt;
    $('#checkout').submit(function (e) {
